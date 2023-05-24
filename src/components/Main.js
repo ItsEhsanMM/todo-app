@@ -36,7 +36,7 @@ const Main = () => {
    const refInput = createRef();
 
    return (
-      <div className=" relative m-0 h-screen w-[100%] bg-default">
+      <div className=" relative m-0 h-screen w-screen bg-default">
          <div className="absolute left-[39px] top-[119px] w-80 font-semibold leading-[44px] text-white xl:left-[345px] xl:top-[119px] xl:w-[750px] xl:text-5xl xl:leading-10">
             <h1 className="text-4xl xl:text-6xl">TODO APP</h1>
          </div>

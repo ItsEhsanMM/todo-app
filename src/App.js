@@ -7,7 +7,7 @@ import ItemContextProvider from "./context/ItemContextProvider";
 
 const App = () => {
    return (
-      <div className="min-h-[100dvh] font-inter">
+      <div className="min-h-[100dvh] w-[100%] overflow-hidden font-inter">
          <ItemContextProvider>
             <Main />
             <Contact />
